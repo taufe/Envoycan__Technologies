@@ -1,0 +1,65 @@
+html, body{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	width: 100%;
+	overflow-x: hidden;
+	scroll-behavior: smooth;
+  }
+
+.img_div {
+	display: flex;
+	justify-content: center;
+  }
+
+.responsive_img {
+	max-width: 100%;
+  min-width: 100%;
+  }
+
+/* seaarch bar */
+.search {
+  position: relative;
+  box-shadow: 0 0 40px rgba(51, 51, 51, .1);
+  margin-bottom: 24px;
+  }
+
+.search input {
+  height: 60px;
+  text-indent: 25px;
+  border: 2px solid #d6d4d4;
+  font-family: 'Playfair', serif;
+  font-weight: 500;
+  }
+
+.search .fa-search {
+  position: absolute;
+  top: 20px;
+  left: 16px;
+  }
+
+.search_btn {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  height: 50px;
+  width: 110px;
+  background: #47b2e4;
+  font-family: 'Playfair', serif;
+  font-weight: 500;
+  }
+
+.fruit_item_bg_clr{
+  background-color: #d6d4d4;
+  padding: 20px;
+  }
+
+.item {
+  background-color: #47b2e4; 
+  padding: 10px; 
+  font-family: 'Playfair', serif;
+  font-weight: 500;
+  margin-bottom: 10px;
+  color: #fff;
+  cursor: pointer;
+  }
